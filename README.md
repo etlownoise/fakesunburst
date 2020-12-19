@@ -24,13 +24,15 @@ Uses:
   
 How to run it:
 ==============
+/*
+
 fakesunburst.exe -h
-- DEFANGED-SUNBURST v1.1 ==================== ET Lownoise 2020
-- (-h for Help)
+DEFANGED-SUNBURST v1.1 ==================== ET Lownoise 2020
+(-h for Help)
      Example:   fakesunburst.exe -a www.something.com
      Options:
-     -----------------------------------
-     -a [host] Use this host as C2 test and DNS resolution. In the backdoor it
+
+    -a [host] Use this host as C2 test and DNS resolution. In the backdoor it
                 uses 'api.solarwinds.com' and {DGA}.avsvmcloud.com however by default in
                 this tool it points to 'localhost' and needs to be changed wiht this flag.
      -b Bypass businesslayerhost check
@@ -214,6 +216,7 @@ THE END.=====
 Regards,
 
 ET
+*/
 
 
 
