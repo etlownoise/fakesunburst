@@ -67,7 +67,7 @@ fakesunburst.exe
 [09.26.27.5042238] - Initializing --  Initialize()
 [09.26.27.5042238] - Trying to get Current Process Name and compare to hash of 'solarwinds.businesslayerhost'.
 [09.26.27.5072474] - Check failed sunburst not running from 'solarwinds.businesslayerhost' runnin from fakesunburst[-b to bypass]
-[09.26.27.5092411] - FAKESUNBURST EXIT
+[09.26.27.5092411] - FAKESUNBURST EXIT 
 
   ---->   Sunburst checks that it is run as solarwinds.businesslayerhost.exe and because it fails the check then it stops. Lets use -b to bypass that check
   
