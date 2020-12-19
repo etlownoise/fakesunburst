@@ -2,15 +2,13 @@
 Defanged version of sunburst backdoor base in the decompiled version from Chris Doman https://github.com/cadosecurity/MalwareAnalysis/blob/main/OrionImprovementBusinessLayer.cs 
 Basically is the defanged version so you can compile it and see what sunburst will do before it tries to connect to the C2 server. Also allow to control its behavior by disabling checks, time delays, force a specific family, see the proceses that you are running that sunburt is interested in and see which ones will stop it. 
 
-Defanged:
-=========
+### Defanged:
   - This version has the C2 (Command & Control) code disabled. 
   - All connections will be done to 'localhost' by default. You need to specify a different host with -a parameter
   - This tool uses the same host for DNS resolution and to test C2. The real backdoor uses 'api.solarwinds.com' and '{DGA}.avsvmcloud.com however' in this tool you use the same host   you define. by default is 'localhost'
   - The only thing will do is try to connect to the host you specify. After the connection is made the connection is dropped.
  
-Uses:
-=====
+### Uses:
   - To understand more about sunburst and properly assess the situation 
   - To test your previous and current posture of your endpoints and network controls against a sunburst simulation
   - To test if your current endpoint solution now detects it
@@ -22,17 +20,15 @@ Uses:
   - To understand the code and match it against whats has been publicly disclosed
   - To learn more about malware
   
-How to run it:
-==============
-\*
+### How to run it:
 
 fakesunburst.exe -h
 DEFANGED-SUNBURST v1.1 ==================== ET Lownoise 2020
 (-h for Help)
      Example:   fakesunburst.exe -a www.something.com
      Options:
-\*
-    -a [host] Use this host as C2 test and DNS resolution. In the backdoor it
+
+     -a [host] Use this host as C2 test and DNS resolution. In the backdoor it
                 uses 'api.solarwinds.com' and {DGA}.avsvmcloud.com however by default in
                 this tool it points to 'localhost' and needs to be changed wiht this flag.
      -b Bypass businesslayerhost check
@@ -58,9 +54,8 @@ DEFANGED-SUNBURST v1.1 ==================== ET Lownoise 2020
      -u Force scan of connfiguration
      -h This help
 
-Example:
-========
-\*
+### Example:
+
 fakesunburst.exe 
 
 [09.26.27.4962731] - DEFANGED-SUNBURST v1.1 ==================== ET Lownoise 2020
