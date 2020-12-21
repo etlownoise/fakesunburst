@@ -909,6 +909,7 @@ namespace fakesinburst
 			12785322942775634499UL,
 			// hiew32
 			13260224381505715848UL,
+			// hollows_hunter
 			17956969551821596225UL,
 			// idaq64
 			8709004393777297355UL,
@@ -1211,7 +1212,9 @@ namespace fakesinburst
 			{
 				timeStamps = new ulong[]
 				{
+					// microsoft.tri.sensor
 					10501212300031893463UL,
+					// microsoft.tri.sensor.updater
 					155978580751494388UL
 				},
 				Svc = new Program.ServiceConfiguration.Service[0]
@@ -1429,6 +1432,7 @@ namespace fakesinburst
 					},
 					new Program.ServiceConfiguration.Service
 					{
+						// f-secure webui daemon
 						timeStamp = 13655261125244647696UL,
 						DefaultValue = 2U
 					},
