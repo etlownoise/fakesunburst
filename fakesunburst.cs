@@ -1,4 +1,10 @@
-﻿using System;
+/*Defanged version of sunburst backdoor based in the decompiled and deobfuscated version from 
+ Chris Doman https://github.com/cadosecurity/MalwareAnalysis/blob/main/OrionImprovementBusinessLayer.cs 
+ Basically is the defanged version so you can compile it and see what sunburst will do before it tries to 
+ connect to the C2 server. Also allow to control its behavior by disabling checks, time delays, force a specific family, 
+ see the proceses that you are running that sunburt is interested in and see which ones will stop it.*/
+
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
