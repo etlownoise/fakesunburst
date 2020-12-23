@@ -1,8 +1,18 @@
-/*Defanged version of sunburst backdoor based in the decompiled and deobfuscated version from 
+/*
+ Defanged version of sunburst backdoor based in the decompiled and deobfuscated version from 
  Chris Doman https://github.com/cadosecurity/MalwareAnalysis/blob/main/OrionImprovementBusinessLayer.cs 
  Basically is the defanged version so you can compile it and see what sunburst will do before it tries to 
  connect to the C2 server. Also allow to control its behavior by disabling checks, time delays, force a specific family, 
- see the proceses that you are running that sunburt is interested in and see which ones will stop it.*/
+ see the proceses that you are running that sunburt is interested in and see which ones will stop it.
+ */
+
+/* 
+ De-obfuscated code for 32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77
+
+ SolarWinds.Orion.Core.BusinessLayer.dll
+ MS Detection: Solorigate.B
+ Yara: APT_Backdoor_SUNBURST_1, APT_Backdoor_SUNBURST_2 
+*/
 
 using System;
 using System.Collections.Generic;
